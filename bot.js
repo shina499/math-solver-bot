@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf');
 const { message } = require('telegraf/filters');
 
-const bot = new Telegraf("8131527159:AAHfP-g0B5OdHiqOI_ooDRrwrh-YrIiMeSI")
+const bot = new Telegraf(your-bot-token);
 
 bot.start((ctx) => ctx.reply('سلام به ربات من خوش آمدید! لطفا عدد مورد نظر را وارد کنید🥰'));
 
